@@ -247,6 +247,7 @@ public class AchievementPostController {
                 .filter(c -> c.getCommentId().equals(commentObjectId))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Comment not found"));
+                
 
         // Check if user is comment author
         if (!existingComment.getAuthorId().equals(userId)) {

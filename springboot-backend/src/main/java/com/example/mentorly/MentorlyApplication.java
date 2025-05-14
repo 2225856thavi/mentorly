@@ -10,3 +10,4 @@ public class MentorlyApplication {
         SpringApplication.run(MentorlyApplication.class, args);
     }
 }
+
